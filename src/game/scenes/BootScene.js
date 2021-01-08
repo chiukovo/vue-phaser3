@@ -6,12 +6,10 @@ export default class BootScene extends Scene {
   }
 
   preload () {
+    //場景
   }
 
   create () {
-  }
-
-  update () {
-    
+    this.scene.start('PlayScene')
   }
 }

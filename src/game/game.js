@@ -16,7 +16,10 @@ function launch(containerId) {
         debug: false
       }
     },
-    scene: [BootScene, PlayScene]
+    scene: [
+      BootScene,
+      PlayScene
+    ]
   })
 }
 
