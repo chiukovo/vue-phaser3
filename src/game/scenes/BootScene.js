@@ -1,4 +1,5 @@
 import { Scene } from 'phaser'
+import mainBg from '@/assets/images/bg.png'
 
 export default class BootScene extends Scene {
   constructor () {
@@ -7,6 +8,7 @@ export default class BootScene extends Scene {
 
   preload () {
     //場景
+    this.load.image('mainBg', mainBg)
   }
 
   create () {
